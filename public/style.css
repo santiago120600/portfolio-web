@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cover {
@@ -7,10 +7,10 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color:#b9bac3;
+  background-color: #b9bac3;
   position: relative;
   text-align: center;
-  color:#383432;
+  color: #383432;
 }
 
 .overlay {
@@ -30,11 +30,11 @@ body {
 }
 
 .links-container a {
-  color:#383432;
+  color: #383432;
 }
 
 .icon {
-  color:white;
+  color: white;
   width: 1500px;
   height: 200px;
   /*border: 5px solid green;*/
@@ -45,13 +45,64 @@ body {
   height: 300px;
   overflow: hidden;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .web-img {
   width: 100%;
-  transition: 0.5s all ease-in-out;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 45px;
+  }
+  .profession {
+    font-size: 15px;
+  }
 }
 
-.web-img:hover {
-  transform: scale(1.5);
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+  .profession {
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+  .title {
+    font-size: 45px;
+  }
+  .profession {
+    font-size: 14px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Kindle Fire HDX  */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1600px) and (-webkit-device-pixel-ratio: 2) {
 }
