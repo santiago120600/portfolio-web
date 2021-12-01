@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.img-container {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.web-img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.web-img:hover {
+  transform: scale(1.5);
+}
